@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width= device-width, intial-scale= 1.0" />
+    <title>Id Flow</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="id flow.css" />
+         <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">  
+          <script src="https://kit.fontawesome.com/4d36971abe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+  <!-- Nav bar code starts here -->
+    <nav class="nav">
+        <a href="#" class="nav__link">
+            <i class="fa fa-home material-icons nav__icon" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="fa fa-plus-circle material-icons nav__icon" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="nav__link nav__active">
+            <span id="wordmark">ID FLOW</span>
+        </a>
+         <a href="#" class="nav__link nav__active">
+            <i class="fa fa-user material-icons nav__icon" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="fa fa-search material-icons nav__icon" aria-hidden="true"></i>
+        </a>
+    </nav>
+      <!-- Nav bar code ends here -->
+</header>
+<section>
+<!-- // Make this pop up on load with js, it's css is done! see class cardview in the stylesheet //
+<center>
+    	<div class="cardview">
+    	<h4 class="sub-head">Welcome to idea flow,</h4>
+    	<p>A place for creative minds.<br/> A place to get live feed backs about your ideas.
+    	</p>
+    </div>
+</center> <br><br> -->
+  <!-- Post body code starts here -->
+<div class="rensponsive w3-container w3-card w3-display-container">
+ <span class="w3-container w3-cell">
+<img src="hacker.png" alt="dp" class="dp w3-circle">
+</span>
+<span class="w3-container w3-cell">
+ <h6 class="name">Hacker Man <span class="badge w3-medium noselect"><i class="fa fa-check-circle" aria-hidden="true"></i></span></h6>
+ <span class="time w3-display-topright">2days 
+ <span class="icon">
+  <a href="#" class="links">
+            <i class="fas fa-user-plus" aria-hidden="true"></i></a>
+</span>
+ <!-- Post dropdown code starts -->
+  <span class="w3-dropdown-click">
+  <button onclick="myshow()" id="caret" class="w3-button icon">
+   <i class="fas fa-caret-down" aria-hidden="true"></i>
+  </button>
+  <span id="btn" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#" class="w3-bar-item w3-button">post opt 1</a>
+    <a href="#" class="w3-bar-item w3-button">post opt 2</a>
+    <a href="#" class="w3-bar-item w3-button">post opt 3</a>
+  </span>
+</span>
+
+<script>
+function myshow() {
+  var x = document.getElementById("btn");
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+ <!-- Post dropdown code ends! -->
+ <span class="w3-container w3-cell">
+ <span class="w3-display-left">
+</div>
+    </section>
+</body>
+</html>

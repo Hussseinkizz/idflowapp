@@ -1,0 +1,164 @@
+﻿body
+{
+    margin: 0 0 55px 0;
+}
+/* main css ends */
+
+/* navbar css starts */
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    display: flex;
+    overflow: hidden;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #14171a;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 1s ease-in-out;
+}
+
+/* id flow logo wordmark css begins */
+#wordmark {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Oleo Script', cursive;
+    color: inherit;
+}
+/* id flow logo wordmark css ends, nav bar css continues! */
+
+.nav__link:hover {
+    color: orangered;
+    transform: scale(1.1);
+}
+
+.nav__link:active {
+    color: grey;
+}
+
+.nav__link:visted {
+    color: grey;
+}
+
+/* cardview popup css starts here! */
+.sub-head {
+    color: #000;
+    margin-left: 15Px;
+}
+
+.cardview {
+    color: grey;
+    width: 200px;
+    padding: 2px;
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+/* cardview css ends! */
+
+/* some css to make the post body rensponsive */
+.rensponsive {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 50%;
+    width: 98%;
+    height: auto;
+    padding: 2px;
+    margin: 1%;
+}
+
+/* profile photo or dp css */
+.dp {
+    margin: inherit;
+    width: 72px;
+    height: 72px;
+    padding: 4px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+/* css to disable verification badge mouse selection */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.badge {
+    color: green;
+}
+
+/* post time, follow and dropdown options css */
+.time {
+    margin: 4px;
+    color: grey;
+    font-weight: bold;
+}
+
+.icon {
+    background: none;
+    color: grey;
+    margin: 2px;
+    text-decoration-style: none;
+}
+
+.icon:hover {
+    color: orangered;
+}
+
+.links {
+    text-decoration-style: none;
+}
+
+#caret {
+    padding: 2px;
+    margin: 4px;
+}
+
+#caret:hover {
+    background: white;
+    color: orangered;
+}
+
+.w3-dropdown-hover:first-child, .w3-dropdown-click:hover {
+    background: none !important;
+    color: orangered;
+}
+
+.w3-button:hover {
+    color: orangered;
+    background: none !important;
+}
