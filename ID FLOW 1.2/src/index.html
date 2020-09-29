@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width= device-width, intial-scale= 1.0" />
+    <title>Id Flow</title>
+    <link rel="shortcut icon" href="../assets/favicon.ico" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="../src/id flow.css" />
+         <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">  
+          <script src="https://kit.fontawesome.com/4d36971abe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+  <!-- Nav bar code starts here -->
+    <nav class="nav"> 
+        <a href="#" class="nav__link"><span class="circles">
+            <i class="fa fa-home material-icons nav__icon" aria-hidden="true"></i></span>
+        </a>
+        <a href="#" class="nav__link"><span class="circles">
+            <i class="fa fa-plus-circle material-icons nav__icon" aria-hidden="true"></i></span>
+        </a>
+        <a href="#" class="nav__link nav__active">
+            <span id="wordmark">ID FLOW</span>
+        </a>
+         <a href="#" class="nav__link nav__active"><span class="circles">
+            <i class="fa fa-user material-icons nav__icon" aria-hidden="true"></i></span>
+        </a>
+        <a href="#" class="nav__link"><span class="circles">
+            <i class="fa fa-search material-icons nav__icon" aria-hidden="true"></i></span>
+        </a>
+    </nav>
+      <!-- Nav bar code ends here -->
+</header>
+<section>
+<!-- // Make this pop up on load with js, it's css is done! see class cardview in the stylesheet //
+<center>
+    	<div class="cardview">
+    	<h4 class="sub-head">Welcome to idea flow,</h4>
+    	<p>A place for creative minds.<br/> A place to get live feed backs about your ideas.
+    	</p>
+    </div>
+</center> <br><br> -->
+  <!-- Post body code starts here -->
+<main class="rensponsive w3-container w3-card w3-display-container">
+ <div id="wrapper1" class="rensponsive w3-container w3-display-container">
+ <span class="w3-container w3-cell">
+<img src="../assets/dp1.png" alt="dp" class="dp w3-circle">
+</span><h6><span class="w3-cell name">Hacker Man <span class="badge w3-medium noselect"><i class="fa fa-check-circle" aria-hidden="true"></i></span></span></h6><span class="time w3-display-right"><span class="bookmark w3-larger">
+  <a href="#" class="links">
+            <i class="far fa-bookmark" aria-hidden="true"></i></a>
+</span></span>
+ <span class="time w3-display-topright"><span class="icon">Follow 
+  <a href="#" class="links">
+            <i class="fas fa-user-plus" aria-hidden="true"></i></a>
+</span>
+ <!-- Post dropdown code starts -->
+  <span class="w3-dropdown-click">
+  <button onclick="myshow()" id="caret" class="w3-button icons">
+   <i class="fas fa-caret-down" aria-hidden="true"></i>
+  </button>
+  <span id="btn" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#" class="w3-bar-item w3-button">post opt 1</a>
+    <a href="#" class="w3-bar-item w3-button">post opt 2</a>
+    <a href="#" class="w3-bar-item w3-button">post opt 3</a>
+  </span>
+</span>
+
+<script>
+function myshow() {
+  var x = document.getElementById("btn");
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+ <!-- Post dropdown code ends! -->
+ </span></span></span></div>
+ <div id="title-wrapper" class="w3-container w3-cell w3-display-container rensponsive-2">
+  <span class="post-title">
+ <span><i class="fas fa-lightbulb w3-large text-icon"></i></span>
+ An idea ignored is the idea that usually succeeds, welcome to idea flow!</span>
+ <span class="post-time w3-display-topright">@hackerman : 2mins back</span>
+</div><div class="post_text w3-mobile rensponsive"><p>Your dreams are always valid, no matter where you come from and that's true for each of us if at all we knew. Goals Do Come True. Dreams can inspire you, but goals can change your life. Sometimes it only takes one step to change a dream into a goal. Yet, it can take years to take that goal to the finish line. Always dream big, but make sure your goals are just as big. Because dreams don't come true… but goals do. And they also don't if you don't act!</p></div>
+<div class="w3-container w3-cell rensponsive post-div">
+ <!-- <img src="../assets/idea vector.jpg" alt="idea vector" class="post_img"> -->
+<div class="iconic">
+        <span class="icons__link">
+        <a href="#" class="links">
+        <i class="far fa-heart iconic__link" aria-hidden="true"></i></a>
+        <span class="numbers">12</span></span>
+        <span class="icons__link">
+        <a href="#" class="links">
+        <i class="far fa-comment-alt iconic__link" aria-hidden="true"></i>
+       </a><span class="numbers">26</span></span>
+       <span class="icons__link">
+        <a href="#" class="links">
+        <i class="far fa-lightbulb iconic__link"></i>
+       </a><span class="numbers">5</span></span>
+       <span class="icons__link">
+         <a href="#" class="links">
+        <i class="fa fa-share iconic__link" aria-hidden="true"></i>
+       </a><span class="numbers">2</span></span>
+      </div>
+</div>
+<!-- Post 2 starts here! -->
+<hr class="line">
+<div id="wrapper1" class="rensponsive w3-container w3-display-container">
+ <span class="w3-container w3-cell">
+<img src="../assets/dp2.jpeg" alt="dp2" class="dp w3-circle">
+</span><h6><span class="w3-cell name">John Doe <span class="badge w3-medium noselect"><i class="fa fa-check-circle" aria-hidden="true"></i></span></span></h6><span class="time w3-display-right"><span class="bookmark w3-larger">
+  <a href="#" class="links">
+            <i class="far fa-bookmark" aria-hidden="true"></i></a>
+</span></span>
+ <span class="time w3-display-topright"><span class="icon">Follow 
+  <a href="#" class="links">
+            <i class="fas fa-user-plus" aria-hidden="true"></i></a>
+</span>
+ <!-- Post dropdown code starts -->
+  <span class="w3-dropdown-click">
+  <button onclick="myshow()" id="caret" class="w3-button icons">
+   <i class="fas fa-caret-down" aria-hidden="true"></i>
+  </button>
+  <span id="btn" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#" class="w3-bar-item w3-button">post opt 1</a>
+    <a href="#" class="w3-bar-item w3-button">post opt 2</a>
+    <a href="#" class="w3-bar-item w3-button">post opt 3</a>
+  </span>
+</span>
+
+<script>
+function myshow() {
+  var x = document.getElementById("btn");
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+ <!-- Post dropdown code ends! -->
+ </span></span></span></div>
+ <div id="title-wrapper" class="w3-container w3-cell w3-display-container rensponsive-2">
+  <span class="post-title">
+ <span><i class="fas fa-lightbulb w3-large text-icon"></i></span>
+ Guys How About A Food Downloading App?</span>
+ <span class="post-time w3-display-topright">@jdoe : 4sec back</span>
+</div><div class="post_text w3-mobile rensponsive"><p>imagine how funny it would be to download your favourite dish just as you would download other apps from the store? Cool huh, okay this is circus but can that idea come to life, think about it!</p></div>
+<!-- post image code starts! -->
+<div class="w3-container w3-cell rensponsive post-div">
+ <img src="../assets/food temp 1.jpg" alt="idea vector" class="post_img">
+ <!-- post call to action icons code starts here! -->
+<div class="iconic">
+        <span class="icons__link">
+        <a href="#" class="links">
+        <i class="far fa-heart iconic__link" aria-hidden="true"></i></a>
+        <span class="numbers">2</span></span>
+        <span class="icons__link">
+        <a href="#" class="links">
+        <i class="far fa-comment-alt iconic__link" aria-hidden="true"></i>
+       </a><span class="numbers">6</span></span>
+       <span class="icons__link">
+        <a href="#" class="links">
+        <i class="far fa-lightbulb iconic__link"></i>
+       </a><span class="numbers">75</span></span>
+       <span class="icons__link">
+         <a href="#" class="links">
+        <i class="fa fa-share iconic__link" aria-hidden="true"></i>
+       </a><span class="numbers">21</span></span>
+      </div>
+</div>
+</main>
+    </section>
+</body>
+</html>

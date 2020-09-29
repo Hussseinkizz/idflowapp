@@ -1,0 +1,381 @@
+html {
+    scrollbar-color: ##e6ecf0 #f7f7f7;
+}
+
+body
+{
+    margin: 0 0 55px 0;
+}
+
+header  {
+    top: 0;
+    float: top;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    overflow: hidden;
+}
+
+section {
+    top: 57px;
+}
+
+/* main css ends */
+
+/* navbar css starts */
+.nav {
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    background-color: #d09c00; /*#f7f7f7;*/
+    display: flex;
+    overflow: hidden;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white; /*#14171a; */
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 1s ease-in-out;
+}
+
+/* id flow logo wordmark css begins */
+#wordmark {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Oleo Script', cursive;
+    color: inherit;
+}
+#wordmark:hover {
+    color: #000;
+}
+/* id flow logo wordmark css ends, nav bar css continues! */
+
+.nav__link:hover {
+    color: #e6ecf2;
+    transform: scale(1.1);
+}
+
+.circles {
+    border: 0px;
+    margin: 0px;
+    padding: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #dfb024;
+    user-select: none;
+}
+
+.circles:hover {
+    color: #fff;
+    background-color: #d09c00;
+}
+
+/* cardview popup css starts here! */
+.sub-head {
+    color: #000;
+    margin-left: 15Px;
+}
+
+.cardview {
+    color: grey;
+    width: 200px;
+    padding: 2px;
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+/* cardview css ends! */
+
+/* some css to make the post body rensponsive */
+.rensponsive {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 50%;
+    width: 98%;
+    height: auto;
+    padding: 2px;
+    margin: 1%;
+}
+
+.rensponsive-2 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 50%;
+    width: 98%;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+}
+
+/* profile photo or dp css */
+.dp {
+    margin: inherit;
+    width: 72px;
+    height: 72px;
+    padding: 4px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.wrapper1 {
+    margin-bottom: 0 !important;
+}
+.name {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 0px;
+
+}
+
+/* css to disable verification badge mouse selection */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.badge {
+    color: #d09c00;
+}
+
+/* post time, follow and dropdown options css */
+.time {
+    margin: 4px;
+    color: grey;
+    font-weight: bold;
+}
+
+.icon {
+    background: none;
+    color: #ffc107;
+    margin: 2px;
+    text-decoration-style: none;
+}
+
+.icon:hover {
+    color: grey;
+}
+
+.icons {
+    background: none;
+    color: grey;
+    margin: 2px;
+    text-decoration-style: none;
+}
+
+.icons:hover {
+    color: #ffc107;
+}
+
+.links {
+    text-decoration-style: none;
+    transform: scale(1.1);
+    transition: background-color 1s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#caret {
+    padding: 2px;
+    margin: 4px;
+}
+
+#caret:hover {
+    background: white;
+    color: #ffc107;
+}
+
+.w3-dropdown-hover:first-child, .w3-dropdown-click:hover {
+    background: none !important;
+    color: #ffc107;
+}
+
+.w3-button:hover {
+    color: #ffc107;
+    background: none !important;
+}
+
+/* post heading title css */
+
+.line {
+    color: light-grey;
+    margin: 1px;
+    width: 100%;
+}
+
+.title-wrapper {
+    margin: inherit;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 95%;
+}
+
+.text-icon {
+    color: #ffc107;
+}
+
+.post_img {
+    border: 0;
+    border-radius: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 75%;
+}
+
+.post-time {
+    color: #657786;
+    font-style: italic;
+    font-weight: normal;
+    white-space: nowrap;
+    width: auto;
+    min-width: 2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.post-div {
+    margin-top: 2px;
+}
+
+.bookmark {
+    color: #e6ecf0;
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+.bookmark:hover {
+    color: #ffc107;
+}
+
+.post_text {
+    color: rgb(20, 23, 26);
+    white-space: pre-wrap;
+    width: 100%;
+    min-width: 0px;
+    line-height: 1.3125;
+    margin: 0px;
+    margin-left: inherit;
+    padding: 0px;
+    padding-right: 4px;
+    position: relative;
+    display: inline;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+
+/* This css is not in use for now! */
+.post-divi {
+    -moz-box-align: stretch;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    align-items: stretch;
+    border: 0px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-shrink: 0;
+    margin: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    pointer-events: none !important;
+    scrollbar-color: rgb(170, 184, 194) rgb(245, 248, 250);
+}
+
+/* Used css continue, post icons like the heart icon css starts! */
+.iconic {
+    width: 100%;
+    height: 55px;
+    margin: 10px;
+    padding: 10px;
+    color: #909ea9;
+    display: flex;
+    overflow: hidden;
+}
+
+.icons__link {
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 1s ease-in-out;
+}
+
+.iconic__link {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 1s ease-in-out;
+}
+
+.iconic__link:hover {
+    color:  #ffc107;
+    transform: scale(1.1);
+}
+
+.numbers {
+    display: flex;
+    flex-direction: inherit;
+    text-align: left;
+    margin-left: 6px;
+    padding: 1px;
+    font-size: .75em;
+    min-width: calc(1em + 20px);
+    display: inline;
+    text-decoration: none !important;
+    pointer-events: none !important;
+}
